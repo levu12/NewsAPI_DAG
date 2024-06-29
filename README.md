@@ -17,8 +17,7 @@ source ~/.bashrc
 Install Apache Airflow
 Set load_examples = False in airflow.cfg in the ~/airflow folder
 Make sure that airflow_home and dags_folder in airflow.cfg also point to /home/YOURUSERNAME/airflow/dags. If the folder does not exist, be sure to create it.
-Drag both dag.py and newsetl.py into the dags folder
-Run 
+Drag both dag.py and newsetl.py into the dags folder and run
 ```
 export AIRFLOW_HOME="/home/YOURUSERNAME/airflow/dags"
 airflow list_dags

@@ -31,11 +31,6 @@ Drag both dag.py and newsetl.py into the dags folder and run
 ```
 export AIRFLOW_HOME="/home/YOURUSERNAME/airflow/dags"
 airflow list_dags
-```
-to make sure your DAG is there
-
-Run 
-```
 airflow standalone
 ```
 
